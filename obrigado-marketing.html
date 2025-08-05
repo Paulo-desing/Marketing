@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato Recebido</title>
+  <meta name="description" content="Confirmação de envio de mensagem para nossa equipe de marketing." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="https://img.icons8.com/color/96/design.png" />
+  <script src="https://cdn.tailwindcss.com" defer></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-100 via-white to-blue-100 min-h-screen flex items-center justify-center text-center font-sans">
+
+  <div class="bg-white p-8 sm:p-10 rounded-2xl shadow-2xl max-w-md w-full animate-fade-in" aria-label="Mensagem de confirmação">
+    <h1 class="text-4xl font-extrabold text-indigo-600 mb-4">🎉 Mensagem Recebida!</h1>
+    <p class="text-gray-800 text-lg">Agradecemos seu contato. Em breve retornaremos.</p>
+    <p class="mt-2 text-sm text-gray-500">Fique ligado no seu e-mail ou WhatsApp.</p>
+
+    <a href="index.html" class="mt-6 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-2 rounded-full transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+      Voltar ao Início
+    </a>
+  </div>
+
+  <style>
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 0.6s ease-out both;
+    }
+  </style>
+
+</body>
+</html>
